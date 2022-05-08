@@ -64,6 +64,15 @@ disqus_username: false
 # Netease settings
 netease_comment: true
 
+# Gitalk settings
+gitalk:
+  enable: true
+  clientID: d1ed9dcb20e04d7c9642                            #生成的clientID
+  clientSecret: e5219cd234dbfb13364a26be49b1cf1d5994517b    #生成的clientSecret
+  repo: liang-n.github.io    #仓库名称
+  owner: liang-n    #github用户名
+  admin: liang-n
+  # distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # Analytics settings
