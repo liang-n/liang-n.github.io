@@ -59,10 +59,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: false
 
 # Netease settings
-netease_comment: false
+netease_comment: true
 
 
 
@@ -77,9 +77,9 @@ netease_comment: false
 
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "黄玄，前端娱乐圈 NPC，编程语言/编译器初心者 <br> An UI/Frontend dev & designer accidentally growing into a compiler/PL hacker."
-sidebar-avatar: https://github.com/liang-n.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true                                   # whether or not using Sidebar.
+sidebar-about-description: "人在上海，有点焦虑"
+sidebar-avatar: https://github.com/liang-n.png  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -91,7 +91,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: true
+service-worker: false
 
 
 
@@ -102,32 +102,8 @@ page-mathjax: false
 
 # Friends
 friends: [
-    {
+    #{
     #     title: "Su",
     #     href: "http://su.gallery/"
-    # },{
-        title: "乱序（Midare）",
-        href: "http://mida.re/"
-    },{
-        title: "Sherry Woo",
-        href: "https://sherrywoo.me/"
-    },{
-        title: "Kun Qian",
-        href: "http://kunq.me"
-    },{
-        title: "Ebn Zhang",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "JiyinYiyong",
-        href: "http://tiye.me/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    }
+    # }
 ]
