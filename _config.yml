@@ -5,34 +5,38 @@ header-img: img/home-bg.jpg
 email: njl1@foxmail.com
 description: ""
 keyword: "博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://liang-n.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://liang-n.github.io" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
 RSS: true
-weibo_username:     false
-zhihu_username:     false
-github_username:    liang-n
-twitter_username:   Niujunliang
+weibo_username: false
+zhihu_username: false
+github_username: liang-n
+twitter_username: Niujunliang
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
-
-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+exclude:
+    [
+        "less",
+        "node_modules",
+        "Gruntfile.js",
+        "package.json",
+        "README.md",
+        "README.zh.md",
+    ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
-
-
+#timezone: CN
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -40,79 +44,59 @@ anchorjs: true                          # if you want to customize anchor. check
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
 
-
-
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
-
-
+    input: GFM # use Github Flavored Markdown !important
+    syntax_highlighter_opts:
+        span:
+            line_numbers: false
+        block:
+            line_numbers: true
+            start_line: 1
 
 # Disqus settings
 disqus_username: false
 
 # Netease settings
-netease_comment: true
+netease_comment: false
 
 # Gitalk settings
 gitalk:
-  enable: true
-  clientID: d1ed9dcb20e04d7c9642                            #生成的clientID
-  clientSecret: e5219cd234dbfb13364a26be49b1cf1d5994517b    #生成的clientSecret
-  repo: liang-n.github.io    #仓库名称
-  owner: liang-n    #github用户名
-  admin: liang-n
-  # distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
+    enable: true
+    clientID: d1ed9dcb20e04d7c9642 #生成的clientID
+    clientSecret: e5219cd234dbfb13364a26be49b1cf1d5994517b #生成的clientSecret
+    repo: liang-n.github.io #仓库名称
+    owner: liang-n #github用户名
+    admin: liang-n
+    # distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
 # ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 # ga_domain: huangxuan.me
 
-
-
 # Sidebar settings
-sidebar: true                                   # whether or not using Sidebar.
+sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "人在上海，有点焦虑"
-sidebar-avatar: https://github.com/liang-n.png  # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar-avatar: https://github.com/liang-n.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: false
 
-
-
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-
-
 # Friends
-friends: [
-    #{
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # }
-]
+friends: [{ title: "Li Zhenwang", href: "http://www.lizhenwang.com/" }]
