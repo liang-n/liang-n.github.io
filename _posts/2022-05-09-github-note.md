@@ -9,10 +9,9 @@ header-style:   text
 #header-img: "img/post-bg/hello-world.jpg"
 #header-mask:  1
 tags:
-    - blog
     - github
-    - note
     - git
+    - note
 ---
 
 💡 Git 是目前世界上最先进的分布式版本控制系统。

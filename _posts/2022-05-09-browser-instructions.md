@@ -9,10 +9,10 @@ header-style:   text
 #header-img: "img/post-bg/hello-world.jpg"
 #header-mask:  1
 tags:
-    - blog
     - browser
-    - note
 ---
+
+Edge 浏览器太好用了，Safari 等其他浏览器用的很少，常用快捷键基本上所有浏览器都是通用，有空再整理吧！
 
 ## 符号说明
 
@@ -86,8 +86,3 @@ tags:
 | ⌘ + ⌥ + I 或 F12 | 打开开发人员工具  |
 | ⌘ + ⌥ + C        | 检查元素          |
 | ⌘ + ⌥ + J        | JavaScript 控制台 |
-
-
-## Safari
-
-Edge 浏览器太好用了，Safari 用的很少，常用快捷键基本上所有浏览器都是通用，有空再整理吧！
