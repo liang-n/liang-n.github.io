@@ -61,9 +61,6 @@ kramdown:
 # Disqus settings
 disqus_username: false
 
-# Netease settings
-netease_comment: false
-
 # Gitalk settings
 gitalk:
     enable: true
