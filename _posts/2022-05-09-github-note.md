@@ -15,15 +15,7 @@ tags:
     - git
 ---
 
-# 廖雪峰 GitHub 教程笔记
-
-分类: 使用手册
-创建时间: December 19, 2021 3:59 PM
-
-<aside>
 💡 Git 是目前世界上最先进的分布式版本控制系统。
-
-</aside>
 
 ## 安装 Git
 
