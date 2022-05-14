@@ -16,7 +16,12 @@ tags:
 
 ## 代码编辑器
 
-下列方法基于 Visual Studio Code 编辑器。
+下列方法基于 Visual Studio Code 编辑器，以 macOS 的快捷键作为示例。
+
+通常情况下，在 Windows 中的对应快捷键如下：
+
+- Command → Ctrl
+- Option → Alt
 
 ### 多行编辑
 
