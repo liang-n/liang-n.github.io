@@ -25,13 +25,7 @@ twitter_username: Niujunliang
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude:
-    [
-        "less",
-        "node_modules",
-        "Gruntfile.js",
-        "package.json",
-    ]
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json"]
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN
@@ -48,38 +42,38 @@ plugins: [jekyll-paginate]
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-    input: GFM # use Github Flavored Markdown !important
-    syntax_highlighter_opts:
-        span:
-            line_numbers: false
-        block:
-            line_numbers: true
-            start_line: 1
+  input: GFM # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 # Disqus settings
 disqus_username: false
 
 # Gitalk settings
 gitalk:
-    enable: true
-    clientID: d1ed9dcb20e04d7c9642  #生成的clientID
-    clientSecret: e5219cd234dbfb13364a26be49b1cf1d5994517b #生成的clientSecret
-    repo: liang-n.github.io         #仓库名称
-    owner: liang-n                  #github用户名
-    admin: liang-n
+  enable: true
+  clientID: d1ed9dcb20e04d7c9642 #生成的clientID
+  clientSecret: e5219cd234dbfb13364a26be49b1cf1d5994517b #生成的clientSecret
+  repo: liang-n.github.io #仓库名称
+  owner: liang-n #github用户名
+  admin: liang-n
 
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: [your track id]
 
 # Sidebar settings
-sidebar: true                                   # 是否显示侧边栏
+sidebar: true # 是否显示侧边栏
 sidebar-about-description: "人在上海，有点焦虑"
-sidebar-avatar: https://github.com/liang-n.png  # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/liang-n.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # 标签
-featured-tags: true             # 是否显示标签
-featured-condition-size: 0      # 标签使用次数超过此值则显示出来
+featured-tags: true # 是否显示标签
+featured-condition-size: 0 # 标签使用次数超过此值则显示出来
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
@@ -89,4 +83,8 @@ service-worker: false
 page-mathjax: true
 
 # Friends
-friends: [{ title: "Li Zhenwang", href: "http://www.lizhenwang.com/" }]
+friends:
+  [
+    { title: "Li Zhenwang", href: "http://www.lizhenwang.com/" },
+    { title: "Yeshan-Taoist`s Blog", href: "https://yeshan-taoist.github.io/" },
+  ]
