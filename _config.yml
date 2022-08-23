@@ -85,6 +85,7 @@ page-mathjax: true
 # Friends
 friends:
   [
-    { title: "Li Zhenwang", href: "http://www.lizhenwang.com/" },
+    { title: "Li Zhenwang", href: "https://www.lizhenwang.com/" },
     { title: "Yeshan-Taoist`s Blog", href: "https://yeshan-taoist.github.io/" },
+    { title: "Tools", href:"https:tools.in-x.cc" },
   ]
