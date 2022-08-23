@@ -55,7 +55,7 @@ disqus_username: false
 
 # Gitalk settings
 gitalk:
-  enable: true
+  enable: false
   clientID: d1ed9dcb20e04d7c9642 #生成的clientID
   clientSecret: e5219cd234dbfb13364a26be49b1cf1d5994517b #生成的clientSecret
   repo: liang-n.github.io #仓库名称
