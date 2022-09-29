@@ -25,20 +25,6 @@ tags:
 └── tsconfig.json    // typescript 配置文件
 ```
 
-# TypeScript 项目中使用 import 导入 JSON 文件
-
-**目录结构**
-
-```
-.
-├── assets
-│   └── config.json  // 要导入的 json 配置文件
-├── package.json
-├── src
-│   └── index.ts     // 导入到当前 ts 文件中使用
-└── tsconfig.json    // typescript 配置文件
-```
-
 **JSON 文件**
 
 ```json
