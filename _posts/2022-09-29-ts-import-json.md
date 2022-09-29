@@ -5,7 +5,7 @@ subtitle: "Using import json in TypeScript projects"
 date: 2022-09-29 16:27:00
 author: "Liang"
 catalog: true
-# header-style: img
+header-style: text
 # header-img: "img/in-post/keychron-k2-instruction.jpg"
 # header-mask: 0.6
 tags:
