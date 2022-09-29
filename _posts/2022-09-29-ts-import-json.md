@@ -25,6 +25,20 @@ tags:
 └── tsconfig.json    // typescript 配置文件
 ```
 
+# TypeScript 项目中使用 import 导入 JSON 文件
+
+**目录结构**
+
+```
+.
+├── assets
+│   └── config.json  // 要导入的 json 配置文件
+├── package.json
+├── src
+│   └── index.ts     // 导入到当前 ts 文件中使用
+└── tsconfig.json    // typescript 配置文件
+```
+
 **JSON 文件**
 
 ```json
@@ -49,7 +63,7 @@ import * as config2 from "assets/config.json";
 // 全部报错：找不到模块“assets/config.json”。请考虑使用 "--resolveJsonModule" 导入带 ".json" 扩展的模块。ts(2732)
 ```
 
-一般情况下，我们直接想在 TypeScript 文件中是不能直接使用 `import` 导入 JSON 文件的。
+一般情况下，我们在 TypeScript 文件中是不能直接使用 `import` 导入 JSON 文件的。
 
 ## 解决方案
 
