@@ -6,8 +6,6 @@ date: 2022-09-29 16:27:00
 author: "Liang"
 catalog: true
 header-style: text
-# header-img: "img/in-post/keychron-k2-instruction.jpg"
-# header-mask: 0.6
 tags:
   - typescript
   - json
@@ -68,9 +66,9 @@ import * as config2 from "assets/config.json";
 回到 `index.ts` 文件中，使用 `import` 导入 `config.json` 文件：
 
 ```javascript
-import config from "assets/config.json"; // 全部导入
-import { name, desc } from "assets/config.json"; // 按需导入
+import config from "assets/config.json";          // 全部导入
+import { name, desc } from "assets/config.json";  // 按需导入
 
 console.log(config.name); // "demo-ts-import-json"
-console.log(desc); // "TypeScript 项目中使用 import 导入 JSON 文件"
+console.log(desc);        // "TypeScript 项目中使用 import 导入 JSON 文件"
 ```
