@@ -7,7 +7,7 @@ author: "Liang"
 catalog: true
 header-style: img
 header-img: "img/in-post/tailwind-css-vue3-vite/img.png"
-# header-mask: 0.6
+header-mask: 0.6
 tags:
   - vue3
   - vite
